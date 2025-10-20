@@ -8,12 +8,12 @@ execute:
 
 book:  
   language: de
-  title: "deckenmalerei"
-  author: "ASKCR"
+  title: "Ein Gemäldekatalog"
+  author: "CPS"
   date: today
   chapters:
     - index.qmd
-    - section0.qmd
+#    - section0.qmd
     - section1.qmd
 #    - section2.qmd
     - section3.qmd
@@ -23,12 +23,14 @@ bibliography: references.bib
 
 format:
   html:
-    theme:
-      dark: solar
-      light: default
+    #theme:
+    #  dark: solar
+    #  light: morph
     toc: true
     toc-depth: 5
     lightbox: true
+    number-sections: false
+
 
     
   pdf:
@@ -45,5 +47,10 @@ format:
       text: |
         \printindex
     pdf-engine: pdflatex
-  epub: default
-  docx: default
+    number-sections: false
+    papersize: a4
+  epub: 
+    number-sections: false
+  docx: 
+    number-sections: false
+

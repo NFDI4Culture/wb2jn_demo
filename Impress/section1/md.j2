@@ -1,7 +1,9 @@
-# Galerie: {{ rs["bindings"][0]["castleLabel"] }}
+# {{ Ausstellung }}
 {% for row in rs["bindings"] %}
 
 ![{{ row["itemLabel"] }}. Foto: {{ row["creator"] }}]({{ row["photo"] }}){group="photos"}
+
+---
 
 \newpage
 {% endfor %}

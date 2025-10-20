@@ -1,5 +1,6 @@
 {% macro render(node, depth=1) -%}
-{{ "#" * depth }} {{ node['label'] }}  
+{{ "Gebäude und Kunstwerke" }}
+{{ "##" * depth }} {{ node['label'] }}  
 
 {% if node['photos'] %}
   {% for photo in node['photos'] %}

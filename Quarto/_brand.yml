@@ -1,0 +1,40 @@
+meta:
+  name:
+    full: Computational Publishing Service
+    short: CPS
+  link:
+    home: https://nfdi4culture.de/services/details/computational-publishing-service.html
+    docs: https://docs.acmecorp.com
+    gitlab: https://gitlab.com/nfdi4culture/computational-publishing-service
+    description: |
+      Computational Publishing Service uses Jupyter Notebooks to publish from cultural digital collections using Linked Open Data, and Wikidata and Wikibase. The service is designed to sit on top of existing NFDI4Culture Linked Open Data infrastructure.
+
+color:
+  palette:
+    salmon: "#ff9780ff"
+    black: "#000000ff"
+    maize: "#ffe650ff"
+    beige: "#e3e7d7ff"
+    imperial-red: "#ff002dff"
+    gold-metallic: "#d0af55ff"
+  foreground: black
+  background: beige
+  primary: imperial-red
+  secondary: gold-metallic 
+  tertiary: maize
+  danger: salmon
+  #quarto-scss-export-sidebar-hover-color: imperial-red
+
+typography:
+  fonts:
+    - family: Noto Sans
+      source: google
+    - family: Figtree
+      source: google
+    - family: IBM Plex Mono
+      source: google
+  base: Noto Sans
+  headings:
+    family: Figtree
+    weight: 400
+  monospace: IBM Plex Mono
