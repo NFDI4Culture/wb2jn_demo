@@ -1,0 +1,20 @@
+---
+toc: true
+title: "{{ rs["bindings"][0]["itemLabel"] }}"
+---
+
+{% raw %}
+{{< downloadthis ../docs/Ein-Gemäldekatalog.pdf dname=Ein-Gemäldekatalog label="Download PDF" icon=file-earmark-pdf >}}
+{{< downloadthis ../docs/Ein-Gemäldekatalog.epub dname=Ein-Gemäldekatalog label="Download ePub" icon=journal >}}
+{{< downloadthis ../docs/Ein-Gemäldekatalog.docx dname=Ein-Gemäldekatalog label="Download Docx" icon=file-word >}}
+{% endraw %}
+
+# {{ rs["bindings"][0]["itemLabel"] }}{.unlisted}
+
+Wikibase-Eintrag: [{{ rs["bindings"][0]["itemLabel"] }}]({{ rs["bindings"][0]["item"] }})
+
+Adresse: {{ rs["bindings"][0]["address"] }}
+
+![{{ rs["bindings"][0]["itemLabel"] }}. Foto: {{ rs["bindings"][0]["creator"] }}]({{ rs["bindings"][0]["photo"] }}){group="photos" .hover-zoom}
+
+\newpage

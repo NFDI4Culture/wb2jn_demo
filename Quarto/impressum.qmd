@@ -1,0 +1,21 @@
+# Impressum
+
+Eine CPS-Demonstrationsveröffentlichung unter Verwendung von CbDD-Open-Data.
+
+The content of the demo is a catalogue of a collection of paintings from the Corpus of Baroque Ceiling Painting in Germany (CbDD).
+
+License: [MIT License](http://www.apache.org/licenses/)
+
+License information: LICENSE
+
+Creative Commons License This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
+## Computational Publishing Service (CPS)
+
+Computational Publishing Service (CPS) - TIB, Hannover as part of the [Open Science Lab - OSL Wikibase Data Services](https://service.tib.eu/wikibase-data) | And as part of [NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage](https://nfdi4culture.de/services/details/computational-publishing-service).
+
+## About the demo prototype
+
+This publication is a prototype made by the Computational Publishing Service of the Open Science Lab at TIB as part of NFDI4Culture research. The prototype is a proof-of-concept demonstration for the use of Jupyter Notebooks and Wikibase to automatically compile linked open data into a multi-format publication and deposit the publication in an academic repository.
+
+See the software - [https://github.com/NFDI4Culture/CPS](https://github.com/NFDI4Culture/CPS)

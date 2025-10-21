@@ -13,23 +13,34 @@ book:
   date: today
   chapters:
     - index.qmd
-#    - section0.qmd
     - section1.qmd
-#    - section2.qmd
     - section3.qmd
+    - impressum.qmd
   downloads: [pdf, epub, docx]
+  page-footer: |
+    Eine CPS-Demo, die mit CbDD Open Data erstellt wurde.
+
+    [Datenschutzerklärung](https://www.tib.eu/de/datenschutz)
+  repo-url: https://github.com/calnfynn/wb2jn_demo
+  repo-actions: [source, issue]
+  sidebar:
+    right:
+      contents:
+        - about.qmd
+        - contributing.qmd
+        - section: Reports
+          contents: reports
+
 
 bibliography: references.bib
 
 format:
   html:
-    #theme:
-    #  dark: solar
-    #  light: morph
     toc: true
     toc-depth: 5
     lightbox: true
     number-sections: false
+    #theme: webstyle.scss
 
 
     
@@ -37,6 +48,7 @@ format:
     documentclass: scrreprt
     include-in-header: 
       text: |
+        \usepackage{newunicodechar}
         \usepackage{makeidx}
         \makeindex
         \let\oldincludegraphics\includegraphics
@@ -49,6 +61,11 @@ format:
     pdf-engine: pdflatex
     number-sections: false
     papersize: a4
+    geometry:
+      - top=30mm
+      - left=10mm
+      - right=10mm
+      - heightrounded
   epub: 
     number-sections: false
   docx: 

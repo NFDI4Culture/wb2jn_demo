@@ -1,18 +1,19 @@
 ---
-format: 
-  html: default
-  ipynb: default
-  pdf: default
-format-links: [ipynb,html,pdf]
-#code-fold: true
-execute:
-  echo: false
-  output: asis
+toc: true
+title: "Stuttgart, Schloss Solitude"
 ---
 
-# Preface {.unnumbered}
 
+{{< downloadthis ../docs/Ein-Gemäldekatalog.pdf dname=Ein-Gemäldekatalog label="Download PDF" icon=file-earmark-pdf type=info >}}
+{{< downloadthis ../docs/Ein-Gemäldekatalog.epub dname=Ein-Gemäldekatalog label="Download ePub" icon=journal type=info >}}
+{{< downloadthis ../docs/Ein-Gemäldekatalog.docx dname=Ein-Gemäldekatalog label="Download Docx" icon=file-word type=info >}}
 
-This is a Quarto book.
+# Stuttgart, Schloss Solitude{.unlisted}
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Wikibase-Eintrag: [Stuttgart, Schloss Solitude](https://wikibase.kewl.org/entity/Q68)
+
+Adresse: Solitude 1, 70197, Stuttgart, Baden-Württemberg, Deutschland
+
+![Stuttgart, Schloss Solitude. Foto: Bunz, Achim](b648f36e1efedcd91e59a0585194b9ae8783dbbfae9257bdc1d00e4b0c3e5bb7.jpeg){group="photos" .hover-zoom}
+
+\newpage
