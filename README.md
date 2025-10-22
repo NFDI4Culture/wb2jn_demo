@@ -226,3 +226,9 @@ Go back to the GitHub page settings and change the source to the root of the *gh
 In your Quarto directory, run the publish command: 
 
     quarto publish gh-pages
+
+## Misc
+
+### Download button shortcodes
+
+Uses [downloadthis Quarto extension](https://github.com/shafayetShafee/downloadthis) by [shafayetShafee](https://github.com/shafayetShafee/)

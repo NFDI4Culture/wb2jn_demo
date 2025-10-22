@@ -1,29 +1,16 @@
 /*-- scss:rules --*/
 
-a.lightbox {
-  display: inline-block;
-  overflow: hidden;
-}
 
-.hover-zoom {
-  transition: transform 0.35s cubic-bezier(.22,1,.36,1);
-  display: block;          /* remove unwanted bottom gap */
-  width: 100%;             /* make sure image fills anchor */
-  height: auto;
-  object-fit: cover;       /* fills box, crops overflow */
-  will-change: transform;
-}
-
-a.lightbox:hover .hover-zoom,
-a.lightbox:focus .hover-zoom {
-  transform: scale(1.05);  /* adjust to taste */
-  z-index: 2;
-}
-/*
 div.sidebar-item-container .active, div.sidebar-item-container .show > .nav-link, div.sidebar-item-container .sidebar-link > code {
-	color: $brand-red;
+	color: $brand-dark-red;
 }
 
 div.sidebar-item-container:hover, div.sidebar-item-container:focus {
 	color: $brand-dark-red;
-}*/
+}
+
+#quarto-search {
+  /*outline: 1px solid $brand-dark-red;*/
+  box-shadow: 1px 1px 1px 1px $brand-dark-red;
+  border-radius: 3px;
+}

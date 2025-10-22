@@ -8,7 +8,7 @@ title: "Stuttgart, Schloss Solitude"
 {{< downloadthis ../docs/Ein-Gemäldekatalog.epub dname=Ein-Gemäldekatalog label="Download ePub" icon=journal >}}
 {{< downloadthis ../docs/Ein-Gemäldekatalog.docx dname=Ein-Gemäldekatalog label="Download Docx" icon=file-word >}}
 
-# Stuttgart, Schloss Solitude{.unlisted}
+## Stuttgart, Schloss Solitude{.unlisted}
 
 Wikibase-Eintrag: [Stuttgart, Schloss Solitude](https://wikibase.kewl.org/entity/Q68)
 

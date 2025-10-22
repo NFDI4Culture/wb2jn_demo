@@ -1,0 +1,22 @@
+\begin{titlepage}
+
+\begin{tikzpicture}[remember picture,overlay]
+    \fill[salmon] (current page.south west) rectangle (current page.north east);
+\end{tikzpicture}
+
+\vspace*{2.5cm}
+
+\begin{center}
+    {\Huge\bfseries $title$}\\[1.5em]
+    {\Large $author$}\\[3em]
+
+    \includegraphics[width=0.4\textwidth]{ $title-bg$}\\[2em]
+
+    
+\end{center}
+
+\thispagestyle{empty}
+
+{\let\newpage\relax}
+
+\end{titlepage}

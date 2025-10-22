@@ -1,13 +1,13 @@
 {{ "# Gebäude und Kunstwerke" }}
 {% macro render(node, depth=1) -%}
-{{ "#" + "#" * depth }} {{ node['label'] }}  
+{{ "#" + "#" * depth }} {{ node['label'] }} 
 
 \nopagebreak
 \penalty 100000
 
 {% if node['photos'] %}
   {% for photo in node['photos'] %}
-![{{ node["label"] }}. Foto: {{ photo["creator"] }}]({{ photo["url"] }}){group="photos" .hover-zoom}
+![{{ node["label"] }}{{ "\index{"}}{{node["label"]}}{{"}"}}. Foto: {{ photo["creator"] }}]({{ photo["url"] }}){group="photos" .hover-zoom}
 
   {% endfor %}
 {% endif %}
@@ -16,7 +16,7 @@
 \penalty 100000
 
 {% if node["id"] %}
-Wikibase: [{{ node["label"] }}]({{ node["id"] }}) ({{ node["type"] }})
+Wikibase: [{{ node["label"] }}]({{ node["id"] }}){% if node["type"] %} ({{ node["type"] }}){% endif %}
 {% endif %}
 
 \nopagebreak

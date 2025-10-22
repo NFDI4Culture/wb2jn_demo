@@ -1,11 +1,10 @@
 {{ "# Ausstellung" }}
 {% for row in rs["bindings"] %}
 
-
 \nopagebreak
 \penalty 100000
 
-![{{ row["itemLabel"] }}. Foto: {{ row["creator"] }}]({{ row["photo"] }}){group="photos"}
+![{{ row["itemLabel"] }}{{"\index{"}}{{row["itemLabel"]}}{{"}"}}. Foto: {{ row["creator"] }}]({{ row["photo"] }}){group="photos"}
 
 \newpage
 {% endfor %}

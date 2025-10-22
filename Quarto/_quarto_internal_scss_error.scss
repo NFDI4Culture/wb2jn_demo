@@ -1132,17 +1132,16 @@ $brand-gold: #d0af55 !default;
 $brand-dark-faun: #90721f !default;
 $foreground: #000000 !default;
 $background: #e3e7d7 !default;
-$primary: #ff002d !default;
-$secondary: #d0af55 !default;
-$tertiary: #ffe650 !default;
+$primary: #a14149 !default;
+$secondary: #90721f !default;
+$info: #ffe650 !default;
 $danger: #ff9780 !default;
 $pre-color: #000000 !default;
 $body-bg: #e3e7d7 !default;
 $body-color: #000000 !default;
-$body-secondary-color: #d0af55 !default;
-$body-secondary: #d0af55 !default;
-$body-tertiary-color: #ffe650 !default;
-$body-tertiary: #d0af55 !default;
+$body-secondary-color: #90721f !default;
+$body-secondary: #90721f !default;
+$body-tertiary: #90721f !default;
 // quarto-scss-analysis-annotation { "action": "pop" }
 $theme: "brand" !default;
 
@@ -12835,8 +12834,19 @@ main.quarto-banner-title-block > section:first-child > h4 {
 }
 
 
-.img-fluid:hover {
-  zoom
+
+div.sidebar-item-container .active, div.sidebar-item-container .show > .nav-link, div.sidebar-item-container .sidebar-link > code {
+	color: $brand-dark-red;
+}
+
+div.sidebar-item-container:hover, div.sidebar-item-container:focus {
+	color: $brand-dark-red;
+}
+
+#quarto-search {
+  outline: 1px solid $brand-dark-red;
+  /*box-shadow: 1px 1px 1px 1px $brand-dark-red;
+  border-radius: 3px;
 }
 
 // quarto-scss-analysis-annotation { "origin": null }

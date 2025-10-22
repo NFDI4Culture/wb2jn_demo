@@ -23,13 +23,7 @@ book:
     [Datenschutzerklärung](https://www.tib.eu/de/datenschutz)
   repo-url: https://github.com/calnfynn/wb2jn_demo
   repo-actions: [source, issue]
-  sidebar:
-    right:
-      contents:
-        - about.qmd
-        - contributing.qmd
-        - section: Reports
-          contents: reports
+
 
 
 bibliography: references.bib
@@ -37,28 +31,24 @@ bibliography: references.bib
 format:
   html:
     toc: true
+    toc-title: "Inhaltsverzeichnis"
     toc-depth: 5
     lightbox: true
     number-sections: false
-    #theme: webstyle.scss
-
+    theme: ./webstyle.scss
 
     
   pdf:
     documentclass: scrreprt
-    include-in-header: 
-      text: |
-        \usepackage{newunicodechar}
-        \usepackage{makeidx}
-        \makeindex
-        \let\oldincludegraphics\includegraphics
-        \renewcommand{\includegraphics}[2][]{%
-          \oldincludegraphics[width=\linewidth,height=0.70\textheight,keepaspectratio,#1]{#2}%
-        }
+        # FOR TITLE PAGE
+    title-bg: "./b648f36e1efedcd91e59a0585194b9ae8783dbbfae9257bdc1d00e4b0c3e5bb7.jpeg"
+    titlepage: false
+    template-partials:
+      - "before-body.tex"
+    include-in-header: in-header.tex
     include-after-body: 
       text: |
         \printindex
-    pdf-engine: pdflatex
     number-sections: false
     papersize: a4
     geometry:
@@ -66,6 +56,12 @@ format:
       - left=10mm
       - right=10mm
       - heightrounded
+    toc-title: "Inhaltsverzeichnis"
+    linkcolor: darkred
+    filecolor: darkred
+    urlcolor: darkred
+    toc-color: black
+
   epub: 
     number-sections: false
   docx: 
