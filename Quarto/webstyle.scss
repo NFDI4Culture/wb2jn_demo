@@ -10,7 +10,8 @@ div.sidebar-item-container:hover, div.sidebar-item-container:focus {
 }
 
 #quarto-search {
-  /*outline: 1px solid $brand-dark-red;*/
-  box-shadow: 1px 1px 1px 1px $brand-dark-red;
+  outline: 1px solid $brand-dark-red;
+  /*box-shadow: 1px 1px 1px 1px $brand-dark-red;*/
   border-radius: 3px;
 }
+

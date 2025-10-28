@@ -4,9 +4,9 @@ title: "Stuttgart, Schloss Solitude"
 ---
 
 
-{{< downloadthis ../docs/Ein-Gemäldekatalog.pdf dname=Ein-Gemäldekatalog label="Download PDF" icon=file-earmark-pdf >}}
-{{< downloadthis ../docs/Ein-Gemäldekatalog.epub dname=Ein-Gemäldekatalog label="Download ePub" icon=journal >}}
-{{< downloadthis ../docs/Ein-Gemäldekatalog.docx dname=Ein-Gemäldekatalog label="Download Docx" icon=file-word >}}
+{{< downloadthis ../docs/Ein-Gemäldekatalog.pdf dname=Ein-Gemäldekatalog label="Download PDF" icon=file-earmark-pdf class=btn-outline-default >}}
+{{< downloadthis ../docs/Ein-Gemäldekatalog.epub dname=Ein-Gemäldekatalog label="Download ePub" icon=journal class=btn-outline-default >}}
+{{< downloadthis ../docs/Ein-Gemäldekatalog.docx dname=Ein-Gemäldekatalog label="Download Docx" icon=file-word class=btn-outline-default >}}
 
 ## Stuttgart, Schloss Solitude{.unlisted}
 

@@ -1,6 +1,8 @@
 project:
   type: book
   output-dir: ../docs
+  resources: "./fonts/"
+
 
 execute:
   output: asis
@@ -63,7 +65,23 @@ format:
     toc-color: black
 
   epub: 
+    toc-title: "Inhaltsverzeichnis"
     number-sections: false
-  docx: 
+    css: fonts.css
+    theme: epubstyle.scss
+    embed-resources: true
+    epub-fonts:
+      - fonts/Figtree-Regular.ttf
+      - fonts/Figtree-Italic.ttf
+      - fonts/Figtree-Bold.ttf
+      - fonts/Figtree-BoldItalic.ttf
+      - fonts/NotoSerif-Regular.ttf
+      - fonts/NotoSerif-Italic.ttf
+      - fonts/NotoSerif-Bold.ttf
+      - fonts/NotoSerif-BoldItalic.ttf
+    epub-cover-image: epubcover.jpg
+    fig-cap-location: bottom
+    
+  docx:
     number-sections: false
 
