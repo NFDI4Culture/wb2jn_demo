@@ -36,7 +36,7 @@ CPS Wikibase*
     source ~/.venvs/cps_coffeebook/bin/activate
     make install
 
-#### From Cloned Repo
+#### From Forked Repo
 
 ##### Debian
 
