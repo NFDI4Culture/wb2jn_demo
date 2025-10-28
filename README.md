@@ -186,7 +186,7 @@ And add the following in *Quarto/_quarto.yml*:
 
 ### Render to \../docs
 
-#### Set source
+#### Set source (Skip if you're working with a forked repo)
 
 On GitHub, set your website to render from the *docs* directory of the main branch.
 
@@ -208,7 +208,7 @@ Then go to the Quarto directory and add a *.nojekyll* file.
 
 ### Publishing 
 
-#### Render & push 
+#### Render & push (Skip if you're working with a forked repo)
 
 Render and push to GitHub.
 
@@ -218,7 +218,7 @@ Render and push to GitHub.
     git commit -m "Publish site to Docs/"
     git push
     
-#### *gh-pages* branch
+#### *gh-pages* branch (Skip if you're working with a forked repo)
 Initialise a *gh-pages* branch, then go back to your main branch.
     
     git checkout --orphan gh-pages
@@ -230,7 +230,7 @@ Initialise a *gh-pages* branch, then go back to your main branch.
     
 #### Change source
 
-Go back to the GitHub page settings and change the source to the root of the *gh-pages* branch.
+Go back to the GitHub page settings and change the source to the **root** of the *gh-pages* branch.
 
 ![](https://quarto.org/docs/publishing/images/gh-pages-user-site.png)
     
