@@ -20,16 +20,29 @@ CPS Impress
 CPS Selenium GET
 CPS Wikibase*
 
-### Setup
+### Setup 
 
-#### Debian
+#### From Scratch
+
+##### Debian
 
     sudo apt install build-essential python3-full python3-pip git
     git clone https://gitlab.com/nfdi4culture/computational-publishing-service/cps_coffeebook
     cd cps_coffeebook
     make venv
 
-##### BASH
+###### BASH
+
+    source ~/.venvs/cps_coffeebook/bin/activate
+    make install
+
+#### From Cloned Repo
+
+##### Debian
+
+    make venv
+
+###### BASH
 
     source ~/.venvs/cps_coffeebook/bin/activate
     make install
