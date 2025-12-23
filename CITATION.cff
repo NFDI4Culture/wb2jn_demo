@@ -11,6 +11,6 @@ title: "Wikibase to Jupyter Notenooks (WB2JN): Demo"
 version: 0.2.0
 identifiers:
   - type: doi
-    value: 
+    value: 10.5281/zenodo.18033922
 date-released: 2025-10-23
 url: "https://github.com/NFDI4Culture/wb2jn_demo"
