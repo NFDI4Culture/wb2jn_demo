@@ -7,7 +7,7 @@ authors:
 - family-names: "Rahr"
   given-names: "Anna"
   orcid: "https://orcid.org/0009-0008-4458-8228"
-title: "Wikibase to Jupyter Notenooks (WB2JN)"
+title: "Wikibase to Jupyter Notenooks (WB2JN): Demo"
 version: 0.2.0
 identifiers:
   - type: doi
