@@ -47,6 +47,22 @@ CPS Wikibase*
     source ~/.venvs/cps_coffeebook/bin/activate
     make install
 
+##### Windows
+
+Install dependencies directly (no `make venv` needed):
+
+    pip install -r requirements.txt
+
+On Windows, `python-magic` requires a native DLL not included in the standard package. Install the Windows binary:
+
+    pip install python-magic-bin
+
+The `sparql`, `wb`, and `urlcache` scripts are installed to the user Scripts directory, which may not be on `PATH`. Find the path with:
+
+    python -c "import site, os; print(os.path.join(os.path.dirname(site.getusersitepackages()), 'Scripts'))"
+
+Either add that directory to your `PATH`, or use the full path when running `sparql` commands.
+
 ### Create Environment / .env
 
 Create three files called *.env*. 
@@ -57,7 +73,7 @@ One in the root directory (*cps_coffeebook/.env*):
     WB_USERNAME="username"
     WB_PASSWORD="botpass"
 
-    SPARQL_URL="https://query.example.com/sparql"
+    SPARQL_URL="https://query.kewl.org/sparql"
     SPARQL_PREFIX="PREFIX wd: <https://wikibase.kewl.org/entity/>
     PREFIX wdt: <https://wikibase.kewl.org/prop/direct/>
     PREFIX p: <https://wikibase.kewl.org/prop/>
@@ -152,6 +168,16 @@ Initially you may require Latex support to be installed, this can be achieved by
 To generate the demo documents, enter make (Jupyter Notebooks needs to be running for this):
 
     make
+
+> **Windows:** `make` is not available by default. Run the sparql commands directly instead:
+>
+>     sparql index -n -t md -f index.qmd
+>     sparql section1 -n -t md -f section1.qmd
+>     sparql section3 -n -t md -f section3.qmd
+>
+> Then render with: `quarto render`
+>
+> To preview locally: `quarto preview C:\path\to\project\Quarto`
 
 ### Adding or changing sections
 
