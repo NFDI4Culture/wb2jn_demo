@@ -3,8 +3,10 @@ __pycache__
 *~
 *.swp
 .env
+tests/.env
 
 Notebook/.ipynb_checkpoints
+Notebook/.env
 
 Quarto/.quarto
 Quarto/_book/
@@ -14,3 +16,6 @@ Quarto/section1.qmd
 Quarto/section2.qmd
 Quarto/section3.qmd
 Quarto/*.jpeg
+Quarto/.env 
+
+
